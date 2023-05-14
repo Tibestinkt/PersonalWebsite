@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+body{
+    background: rgb(50, 116, 109);
+    color: white;
+    font-family: Arial, Helvetica Neue, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+button{
+    background: rgb(158, 197, 171);
+    border: none;
+    color: white;
+}
+header{
+    background-color: rgb(80, 115, 93);
+    padding: 20px;
+    text-align: center;
+}
+header .logo a{
+    background-image: url("PepeLogo.png");
+    background-repeat: none;
+    display: inline-block;
+    width: 70px;
+    position: relative;
+    top: -20px;
+    height: 70px;
+    text-indent: -99999999999999px;
+  }
+.Games{
+    background-color: rgb(158, 197, 171);
+    color: grey;
+    padding-right: 100px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+}
+.Games figure{
+    margin: auto;
+    text-align: center;
+    width: 100px;
+}
+.Games figure img{
+    border-radius: 5%;
+    position: relative;
+    transition: all 200ms ease-in;
+    transform: scale(1); 
+}
+.Games figure :hover{
+    box-shadow: 0px 0px 100px 5px #487039;
+    z-index: 2;
+    transition: all 200ms ease-in;
+    transform: scale(1.02) rotate(-0.3deg);
+}
+
+footer{
+    background-color: black;
+    padding: 20px;
+}
+div{
+    display: block;
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+ul{
+    margin-top: 40px;
+    padding: 0px;
+    list-style-type: none;
+}
+li{
+    display: inline;
+    margin-top: 40px;
+    margin-right: 10px;
+}
+a{
+    color: white;
+    font-size: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
+  a:active {
+    text-decoration: none;
+  }
+
+  
+
